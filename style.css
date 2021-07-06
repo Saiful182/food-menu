@@ -129,7 +129,7 @@ p{
     margin:60px auto;
     box-shadow: 0 4px 8px 0 rgb(216, 211, 208), 0 6px 20px 0 rgb(216, 211, 208);
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 20px;
     width:75%;
     display: flex;
 }
