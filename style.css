@@ -5,7 +5,7 @@ body{
 }
 .white-background{
     background-color: white;
-    width: 70%;
+    width: 80%;
     margin: auto;
 
 }
@@ -73,39 +73,58 @@ a{
     text-align: justify;
 }
 .bottom-part{
-    
+    width: 80%;
+    height: 1200px;
+    margin: auto;
 }
 .bottom-text-part{
     height: 300px;
     text-align: center;
-    margin: auto;
+    margin-left:130px;
     width: 50%;
 }
 .bottom-text-part h1{
     color:lightsteelblue;
     font-size:40px;
 }
-.bottom-text-part p{
+.bottom-text-part p,.bottom-recipi-part p{
     color:rgb(119, 126, 134);
     font-size:20 px;
+    
 }
+
 .bottom-recipi-part{
-    display:flex;
-    width: 75%;
-    height: 600px;
+    width: 1200px;
     margin: auto;
+    height: 528px;
+    display: flex;
+}
+.bottom-recipi-part h2{
+    color: black;
+    text-align: center;
+}
+.bottom-recipi-part p{
+    text-align: justify;
 }
 .bottom-recipi-left,.bottom-recipi-mid,.bottom-recipi-right{
-    width: 90%;
-    height: 500px;
+    width: 200px;
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgb(216, 211, 208), 0 6px 20px 0 rgb(216, 211, 208);
     margin: 0 10px;
-    padding: 20px;
+    padding: 10px 10px;
 }
 .bottom-img{
     width: 200px;
-    height: 150px;
+    height: 200px;
     border-radius: 10px;
+}
+.bottom-pool{
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgb(216, 211, 208), 0 6px 20px 0 rgb(216, 211, 208);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width:690px;
+    display: flex;
+
 }
