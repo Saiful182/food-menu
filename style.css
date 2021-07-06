@@ -15,17 +15,22 @@ body{
 a{ 
     text-decoration: none;
 }
-.top-part{
+.top-part, .mid-part{
     display: flex;
     width:80% ;
     height:800 px;
 }
-.top-left-part{
+.mid-part{
+    background-image: url(images/7.png);
+    background-repeat:no-repeat;
+   
+}
+.top-left-part ,.mid-right-part {
     width: 50%;
     margin:100px 40px 40px 80px;
     
 }
-.top-left-part h1{
+.top-left-part h1,.mid-right-part h2{
     font-size: 50px;
     color: rgb(85, 89, 94);
 }
@@ -34,7 +39,7 @@ a{
     color:lightslategrey;
     margin-bottom: 20px;
 }
-.top-left-part a{
+.top-left-part a ,.mid-right-part a{
     color:white;
     font-size: 15px;
     border:1px solid transparent;
@@ -45,13 +50,25 @@ a{
     margin: 30px 0;
     text-align: center;
     padding: 10px 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(250, 185, 147), 0 6px 20px 0 rgb(250, 185, 147);
 }
-.top-right-part{
+.top-right-part ,.mid-left-part{
     width:50%;
 }
-.top-right-part img{
-    width: 80%;
+.top-right-part img, .mid-left-part img{
+    width: 100%;
     height: 600px;
     margin:auto;
+}
+.mid-left-part img{
+    margin-left: 40px;
+}
+.mid-right-part h2{
+    font-size: 40px;
+}
+.mid-right-part p{
+    font-size: 16px;
+    color:lightslategrey;
+    margin-bottom: 10px;
+    text-align: justify;
 }
