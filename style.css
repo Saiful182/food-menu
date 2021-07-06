@@ -12,7 +12,7 @@ body{
     border-radius: 20px;
 
 }
-.color{
+span{
     color: orange;
 }
 a{ 
@@ -152,17 +152,17 @@ p{
     height:fit-content;
     margin:20px 0;
 }
-
+.footer-area h1{
+    color: thistle;
+}
 .footer-area a{
-    color: white;
+    color: thistle;
 }
 .footer-area p{
-    color: white;
+    color: thistle;
     word-spacing:1px;
 }
 .random-footer-links a{
-    color: white;
+    color: thistle;
     margin: 40px 30px;
-   
-  
 }
